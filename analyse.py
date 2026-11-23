@@ -32,7 +32,7 @@ def tracer(base, suffixe, titre, ylabel, unite):
 
     ax.set_xlabel("Temps (s)")
     ax.set_ylabel(ylabel)
-    ax.set_title(titre)
+    ax.set_title("ESSAI - " + titre)
     fig.suptitle("Max —> " + " | ".join(maxima), fontsize=10, color="darkred")
 
     ax.legend(loc="upper left")
