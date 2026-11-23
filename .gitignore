@@ -1,0 +1,20 @@
+
+# Dépendances
+node_modules/
+vendor/
+.venv/
+
+# Fichiers de build
+dist/
+build/
+*.o
+
+# Éditeurs et IDE
+.vscode/
+.idea/
+*.swp
+
+# Secrets (ne jamais committer)
+.env
+*.key
+*.pem
